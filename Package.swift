@@ -22,14 +22,15 @@ let package = Package(
             name: "Ringcentral-Video-SDK",
             url: "https://github.com/ringcentral/ringcentral-videosdk-ios-spec/releases/download/v0.9.0/RingCentral_Video_iOS_Client_SDK.zip",
             checksum: "6e71b803bbf8f159f6d4cac81e5c0c2140ad72eebf9888c738fa86a18530038d"
-        )
+        ),
         .binaryTarget(
             name: "rcvsdk",
             path: "rcvsdk.xcframework"
-        )
+        ),
         .binaryTarget(
             name: "RcvReplayKitExtension",
             path: "RcvReplayKitExtension.xcframework"
         )
-    ]
+    ],
+    swiftLanguageVersions: [.v5]
 )
