@@ -20,8 +20,8 @@ let package = Package(
         // Targets can depend on other targets in this package, and on products in packages this package depends on.
         .binaryTarget(
             name: "Ringcentral-Video-SDK",
-            url: "https://github.com/ringcentral/ringcentral-videosdk-ios-spec/releases/download/v0.9.0/RingCentral_Video_iOS_Client_SDK.zip",
-            checksum: "6e71b803bbf8f159f6d4cac81e5c0c2140ad72eebf9888c738fa86a18530038d"
+            url: "https://github.com/ringcentral/ringcentral-videosdk-ios-spec/releases/download/v0.10.0/RingCentral_Video_iOS_Client_SDK.zip",
+            checksum: "e2010eb521a1f31cd45aa9b15eea712ba3b861ba6badfb8846816ad94658b0b4"
         ),
         .binaryTarget(
             name: "rcvsdk",
