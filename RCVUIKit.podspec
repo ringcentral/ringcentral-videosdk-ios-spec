@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = 'RCVUIKit'
-  s.version      = '0.1.1'
+  s.version      = '0.1.2'
   s.summary      = 'Ringcentral Native Video UI Kit for iOS.'
   s.homepage     = 'https://ringcentral.github.io/ringcentral-videosdk-ios'
   s.license      = { :type => 'Copyright', :text => 'Copyright ©2023 Ringcentral' }
@@ -14,7 +14,7 @@ Pod::Spec.new do |s|
   s.resource_bundles = {
    "Resources" => ["RCVUIKit/Resources.bundle/*/**"]
   }
-  s.frameworks = 'Ringcentral-Video-SDK'
+  # s.frameworks = 'Ringcentral-Video-SDK'
   s.requires_arc = true
   # s.frameworks = 'CoreTelephony','CoreMedia','AVFoundation','VideoToolbox','AudioToolbox','CoreMotion'
   # s.libraries = 'c++','resolv'
