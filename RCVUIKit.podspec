@@ -5,7 +5,7 @@ Pod::Spec.new do |s|
   s.homepage     = 'https://ringcentral.github.io/ringcentral-videosdk-ios'
   s.license      = { :type => 'Copyright', :text => 'Copyright ©2023 Ringcentral' }
   s.author       = { 'Ringcentral Video Team' => 'rcv-partners@ringcentral.com' }
-  s.source       = { :http => 'https://github.com/ringcentral/ringcentral-videosdk-ios-spec/releases/download/ui-v0.2.0/RCVUIKit.zip', 
+  s.source       = { :http => 'https://github.com/ringcentral/ringcentral-videosdk-ios-spec/releases/download/v0.2.0/RCVUIKit.zip', 
     :sha1 => '616baef11b21e6eb08309bdb5e13e5c516a6eb4047fbabc4ab03b81a048da79c',
     :flatten => true }
   s.pod_target_xcconfig = { 'VALID_ARCHS' => 'arm64' }
