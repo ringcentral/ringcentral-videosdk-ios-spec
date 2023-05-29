@@ -1,13 +1,13 @@
 
 Pod::Spec.new do |s|
   s.name         = 'Ringcentral-Video-SDK'
-  s.version      = '0.11.0'
+  s.version      = '0.12.0'
   s.summary      = 'Ringcentral Native SDK for iOS.'
   s.homepage     = 'https://ringcentral.github.io/ringcentral-videosdk-ios'
   s.license      = { :type => 'Copyright', :text => 'Copyright ©2023 Ringcentral' }
   s.author       = { 'Ringcentral Video Team' => 'rcv-partners@ringcentral.com' }
-  s.source       = { :http => 'https://github.com/ringcentral/ringcentral-videosdk-ios-spec/releases/download/v0.11.0/RingCentral_Video_iOS_Client_SDK.zip', 
-    :sha1 => '3468ea891d9de96b6864059c853f3a7ee9e1c652',
+  s.source       = { :http => 'https://github.com/ringcentral/ringcentral-videosdk-ios-spec/releases/download/v0.12.0/RingCentral_Video_iOS_Client_SDK.zip', 
+    :sha1 => 'b4ec079625076b3bd77077aebf4e316fc7db45ce',
     :flatten => true }
   s.pod_target_xcconfig = { 'VALID_ARCHS' => 'arm64 x86_64' }
   s.ios.deployment_target = '13.0'
