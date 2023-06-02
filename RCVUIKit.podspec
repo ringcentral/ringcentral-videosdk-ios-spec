@@ -1,12 +1,12 @@
 Pod::Spec.new do |s|
   s.name         = 'RCVUIKit'
-  s.version      = '0.3.0'
+  s.version      = '0.3.1'
   s.summary      = 'Ringcentral Native Video UI Kit for iOS.'
   s.homepage     = 'https://ringcentral.github.io/ringcentral-videosdk-ios'
   s.license      = { :type => 'Copyright', :text => 'Copyright ©2023 Ringcentral' }
   s.author       = { 'Ringcentral Video Team' => 'rcv-partners@ringcentral.com' }
-  s.source       = { :http => 'https://github.com/ringcentral/ringcentral-videosdk-ios-spec/releases/download/v0.3.0/RCVUIKit.zip', 
-    :sha1 => 'c0f8889e26989940ba52afe0f0d0e9e3c227e11f',
+  s.source       = { :http => 'https://github.com/ringcentral/ringcentral-videosdk-ios-spec/releases/download/v0.3.1/RCVUIKit.zip', 
+    :sha1 => '5d99dd85e7bc394a89a82c72f55bdb3dba46bf76',
     :flatten => true }
   s.pod_target_xcconfig = { 'VALID_ARCHS' => 'arm64' }
   s.ios.deployment_target = '13.0'
