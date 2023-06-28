@@ -1,17 +1,17 @@
 
 Pod::Spec.new do |s|
   s.name         = 'Ringcentral-Video-SDK'
-  s.version      = '0.12.0'
+  s.version      = '0.13.0'
   s.summary      = 'Ringcentral Native SDK for iOS.'
   s.homepage     = 'https://ringcentral.github.io/ringcentral-videosdk-ios'
   s.license      = { :type => 'Copyright', :text => 'Copyright ©2023 Ringcentral' }
   s.author       = { 'Ringcentral Video Team' => 'rcv-partners@ringcentral.com' }
-  s.source       = { :http => 'https://github.com/ringcentral/ringcentral-videosdk-ios-spec/releases/download/v0.12.0/RingCentral_Video_iOS_Client_SDK.zip', 
-    :sha1 => 'b4ec079625076b3bd77077aebf4e316fc7db45ce',
+  s.source       = { :http => 'https://github.com/ringcentral/ringcentral-videosdk-ios-spec/releases/download/v0.13.0/RingCentral_Video_iOS_Client_SDK.zip',
+    :sha1 => '9d6e60f66488cfb4acc6aee331e4dcaa8bf6d4a6',
     :flatten => true }
   s.pod_target_xcconfig = { 'VALID_ARCHS' => 'arm64 x86_64' }
   s.ios.deployment_target = '13.0'
-  s.vendored_frameworks = 'rcvsdk.xcframework', 'RcvReplayKitExtension.xcframework'
+  s.vendored_frameworks = 'rcvsdk.xcframework', 'RcvReplayKitExtension.xcframework', 'Segment.xcframework'
   s.requires_arc = true
   # s.frameworks = 'CoreTelephony','CoreMedia','AVFoundation','VideoToolbox','AudioToolbox','CoreMotion'
   # s.libraries = 'c++','resolv'
