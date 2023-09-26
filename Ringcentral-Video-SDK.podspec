@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
   s.name         = 'Ringcentral-Video-SDK'
-  s.version      = '0.14.3'
+  s.version      = '0.14.4'
   s.summary      = 'Ringcentral Native SDK for iOS.'
   s.homepage     = 'https://ringcentral.github.io/ringcentral-videosdk-ios'
   s.license      = { :type => 'Copyright', :text => 'Copyright ©2023 Ringcentral' }
